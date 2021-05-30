@@ -1,0 +1,10 @@
+#python 2.7
+joblib
+h5py==2.9.0
+matplotlib==2.2.4
+numpy==1.16.2
+pandas==0.24.2
+scikit-learn==0.20.3
+subprocess32==3.5.3
+tensorboardX==1.6
+torch==0.4.1
