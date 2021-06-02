@@ -29,12 +29,15 @@ pip install -r requirements.txt
 ```
 
 ## Download Data
-For reproducibility, you can directly download our pre-processed data files (split into multiple unlabeled/train/dev sets): 
+For reproducibility, you can directly download our pre-processed data files: 
 
 ```
 cd data
 bash download_data.sh
 ```
+
+The original product review datasets (OPOSUM) are available [here](https://github.com/stangelid/oposum). The original restaurant review datasets (SemEval) are available [here](https://alt.qcri.org/semeval2016/task5/). If you are using those datasets, please cite the corresponding papers. 
+
 
 ## Running ISWD
 To replicate our EMNLP '19 experiments, you can directly run our bash script:
